@@ -7,43 +7,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Título de la página web: mi perfil profesional -->
     <title>Mi perfil profesional</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Cabecera con el texto mi perfil profesional -->
     <header>
-        <h1>Mi perfil profesional.</h1>
+        <h1 id="mi-nombre">Alejandro MJ</h1>
         <hr>
     </header>
 
     <main>
         <!-- Sección del main de la biografía -->
+         <h2>Biografía</h2>
         <section>
-            <h2>Biografía</h2>
-            Soy Alejandro, tengo <strong>25</strong> años y vivo en <strong>Madrid.</strong> Me destaco por mi capacidad de aprendizaje rápido, creatividad y compromiso, con facilidad para resolver problemas y adaptarme a nuevos desafíos tanto de forma individual como en equipo.
+            <!-- Ejemplo de enlace con imagen -->
+            <article class="dato-importante">
+                Soy Alejandro, tengo <strong>25</strong> años y vivo en <strong>Madrid.</strong> Me destaco por mi capacidad de aprendizaje rápido, creatividad y compromiso, con facilidad para resolver problemas y adaptarme a nuevos desafíos tanto de forma individual como en equipo.
+            </article>
+            <article>
+                <img src="fotodeperfil.jpg" alt="Foto de perfil del usuario" width="500">
+                <p>Mi perfil de Git Hub</p>
+                <a href="https://github.com/AleMJ08/Microrretos-individuales.git" target="_blank">Microrretos-individuales</a>
             </article>
         </section>
         <hr>
         <!-- Sección del main de las habilidades -->
-        <section>
+        <section id="especial">
             <h2>Habilidades</h2>
-            <article>
+            <article class="importante">
             Me destaco por mi capacidad de aprendizaje rápido, creatividad y compromiso con lo que hago. Tengo facilidad para resolver problemas, trabajar en equipo y adaptarme a nuevos desafíos con una actitud positiva.
             </article>
             <article>
             <!-- Lista con los lenguajes -->
-            <p>Mis lenguajes conocidos son:</p>
-            <ul>
-                <li><strong>JavaScript</strong></li>
-                <li><strong>Python</strong>
+                <p>Mis lenguajes conocidos son:</p>
                     <ul>
-                        <li>Crear clases para la creación de una app</li>
-                        <li>Crear bucles</li>
-                        <li>Hacer llamada a las funciones de una clase desde otro código</li>
+                        <li><strong>JavaScript</strong></li>
+                        <li><strong>Python</strong>
+                            <ul>
+                                <li>Crear clases para la creación de una app</li>
+                                <li>Crear bucles</li>
+                                <li>Hacer llamada a las funciones de una clase desde otro código</li>
+                            </ul>
+                        </li>
+                        <li><strong>C++</strong></li>
+                        <li><strong>Scratch</strong></li>
                     </ul>
-                </li>
-                <li><strong>C++</strong></li>
-                <li><strong>Scratch</strong></li>
-            </ul>
             </article>
         </section>
         <hr>
