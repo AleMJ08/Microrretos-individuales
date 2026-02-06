@@ -1,0 +1,14 @@
+/* Estilo general para toda la página */
+body {
+    background-color: #9effb0; /* Verde muy claro en hexadecimal */
+    font-family: sans-serif; 
+}
+
+#mi-nombre {
+    color: rgb(0, 102, 255);
+    text-align: center;
+}
+
+.dato-importante {
+    font-weight: bold; /* Texto en negrita */
+}
