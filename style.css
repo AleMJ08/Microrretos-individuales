@@ -12,3 +12,26 @@ body {
 .dato-importante {
     font-weight: bold; /* Texto en negrita */
 }
+
+header {
+    margin-bottom: 30px;
+}
+
+/* El contenedor que envuelve los elementos */
+main {
+    max-width: 500px;
+    margin: auto;   
+}
+
+#biografía {
+    display: flex;      
+    flex-wrap: wrap;  
+    justify-content: center;
+    gap: 20px;         
+}
+
+.biografia-color {
+    padding: 20px;
+    border: 2px solid brown;
+    background-color: #23fff4;
+}
