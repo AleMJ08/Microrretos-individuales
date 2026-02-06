@@ -1,8 +1,27 @@
-/* Estilo general para toda la página */
+/* Estilos normales (para ordenador) */
+article {
+    width: 450px;
+}
+
 body {
     background-color: #9effb0; /* Verde muy claro en hexadecimal */
     font-family: sans-serif; 
 }
+
+/* Estilos para móviles (pantallas de menos de 600px) */
+@media (max-width: 600px) {
+    article {
+        width: 100%; /* La tarjeta ocupa todo el ancho en el móvil */
+    }
+    h1 {
+        font-size: 1.5rem; /* Hacemos el título un poco más pequeño */
+    }
+    body {
+        background-color: lightcoral;
+    }
+}
+
+/* Estilo general para toda la página */
 
 #mi-nombre {
     color: rgb(0, 102, 255);
