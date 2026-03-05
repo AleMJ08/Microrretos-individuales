@@ -8,6 +8,7 @@ botonmagico.addEventListener("click", function() {
 
 botonmagico.addEventListener("mouseenter", function() {
     botonmagico.textContent = "¡Púlsame, Muñoz!";
+    parrafo.
     });
 
 botonmagico.addEventListener("mouseleave", function() {
