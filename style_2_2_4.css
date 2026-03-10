@@ -2,14 +2,14 @@
     background-color: black;
 
     #textoboton {
-        background-color: white;
+        color: white;
     }
 
     #parrafo {
-        background-color: white;
+        color: white;
     }
 
     #textoboton2 {
-        background-color: white;
+        color: black;
     }
-}
+    }

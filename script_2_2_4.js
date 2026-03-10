@@ -18,5 +18,6 @@ botonmagico.addEventListener("mouseleave", function() {
     });
 
 boton.addEventListener("click", function() {
+    console.log("Prueba");
     document.body.classList.toggle("noche");
 });
