@@ -1,15 +1,7 @@
 .noche {
     background-color: black;
 
-    #textoboton {
-        color: white;
-    }
-
     #parrafo {
         color: white;
     }
-
-    #textoboton2 {
-        color: black;
-    }
-    }
+}
