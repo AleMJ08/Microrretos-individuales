@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilo_2_3_3.css') }}">
+</head>
+<body>
+    <h1>Mis lenguajes de programación favoritos</h1>
+    <img src="{{ url_for('static', filename='img/C++.png') }}" alt="Logo">
+    <img src="{{ url_for('static', filename='img/JavaScript.png') }}" alt="Logo">
+    <img src="{{ url_for('static', filename='img/Python.png') }}" alt="Logo">
+    <ul>
+    {% for item in items %}
+        <li><strong>{{ item.nombre }}</strong> - Motivo: {{ item.motivo }}</li>
+    {% endfor %}
+    </ul>
+    <p>Lista generada por Alejandro - Sesión de Backend</p>
+</body>
+</html>
