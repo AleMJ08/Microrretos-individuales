@@ -1,10 +1,11 @@
-# Importamos la función para manejar plantillas
-from flask import Flask, render_template
-
-app = Flask(__name__)
-
-@app.route("/")
-def inicio():
-    # Buscamos el archivo 'index.html' dentro de la carpeta /templates
-    # También podemos pasar datos como variables (nombre="Ana")
-    return render_template("index.html", nombre="Ana")
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Acceso concedido a {{ estudiante }}, alias "{{ nickname }}". ID de sesión: {{ id_dev }}.</h1>
+</body>
+</html>

@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route("/") # Cuando el usuario entre en la dirección raíz (home)
 def inicio():
     # Esta función devuelve el código HTML que el navegador mostrará al usuario
-    return "<h1>Servidor Activo</h1><p>Bienvenido al motor de la web.</p>"
+    return "<h1>Alejandro Muñoz Jiménez</h1><p>Mi primer servidor Flask funciona.</p>"
 
 # Comprobamos si el script se está ejecutando directamente (y no importado como módulo)
 if __name__ == "__main__":
